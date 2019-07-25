@@ -1,0 +1,175 @@
+/*
+ Theme Name:   Zeko Lite Child XR
+ Description:  Zeko Lite child theme customised for Extinction Rebellion.
+ Author:       David Balch
+ Template:     zeko-lite
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags: two-columns, accessibility-ready, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments
+ Text Domain: zeko-lite-xroxford
+*/
+@font-face {
+  font-family: "FUCXEDCAPS";
+  src: url("/wp-content/themes/zeko-lite-child-xr/assets/fonts/fucxedcaps-webfont.woff");
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "FUCXEDCAPS", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.emphasis {
+  color: #C80082;
+}
+.dropcap {
+  color: #C80082;
+  border-right: 3px solid #C80082;
+}
+blockquote {
+  border-left: 4px solid #C80082;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+div.wpforms-container-full .wpforms-form input[type=submit],
+div.wpforms-container-full .wpforms-form button[type=submit],
+div.wpforms-container-full .wpforms-form .wpforms-page-button {
+	background: #C80082;
+}
+input[type="submit"]:focus {
+  border: 2px solid #C80082;
+}
+a,
+a:visited {
+  color: #C80082;
+}
+.site-title {
+  font-family: "FUCXEDCAPS", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.site-title a {
+  color: #1b1f22;
+}
+.site-description,
+.site-description a {
+/* text-transform: none; */
+  color: #C80082;
+}
+.main-navigation li.color a {
+  background: #C80082;
+}
+.main-navigation ul ul a {
+/* text-transform: none; */
+}
+.main-navigation a {
+  font-family: "FUCXEDCAPS", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: #1b1f22;
+}
+.main-navigation .sub-menu {
+  border: 2px solid #F6EE6A;
+  padding: 0;
+}
+.main-navigation .sub-menu a {
+  font-family: "Oswald", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.main-navigation.toggled a:hover,
+.main-navigation.toggled a:focus {
+  border-bottom: 3px solid #C80082;
+}
+.entry-content a.button,
+.button,
+.front-page-content-area .button,
+.front-page-content-area .entry-content a.button {
+  background: #C80082;
+  border-bottom: 2px solid #C80082;
+}
+.front-child-page h2.entry-title:before,
+.page-template-full-width-page h1.entry-title:before,
+.single h1.entry-title:before,
+.blog h2.entry-title:before,
+.blog h1.entry-title:before,
+.archive h2.entry-title:before,
+.search h3.entry-title:before,
+.page-template-right-sidebar-page .entry-header h1:before,
+.page-template-default .entry-header h1:before {
+  background-color: #C80082;
+}
+.front-child-page .more-link {
+  color: #C80082;
+}
+ul.list li:before {
+  color: #C80082;
+}
+.featured-post {
+  background: #C80082;
+}
+.nav-subtitle {
+  font-family: "FUCXEDCAPS", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.bypostauthor::before {
+  background: #C80082;
+}
+.site-footer .social-links a:hover::before,
+.site-footer .social-links a:focus::before {
+  background: #C80082;
+}
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation .current-menu-item a {
+  border-bottom: 3px solid #C80082;
+}
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a:focus,
+.main-navigation ul .current-menu-item ul li a,
+.main-navigation ul .current-menu-item ul ul li a,
+.main-navigation li.color a,
+.main-navigation .sub-menu .current-menu-item a,
+.main-navigation .sub-menu a:hover {
+	border-bottom: 3px solid #C80082;
+}
+.wp-block-pullquote cite, .wp-block-pullquote footer {
+  color: #C80082;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large),
+.wp-block-quote.is-large, .wp-block-quote.is-style-large {
+  border-left: 4px solid #C80082;
+}
+.wp-block-quote:not(.is-large):not(.is-style-large),
+.wp-block-quote.is-large, .wp-block-quote.is-style-large {
+	border-left: 4px solid #C80082;
+}
+.wp-block-quote.is-large cite, .wp-block-quote.is-large footer,
+.wp-block-quote.is-style-large cite, .wp-block-quote.is-style-large footer,
+.wp-block-quote cite,
+.wp-block-quote footer {
+	color: #C80082;
+}
+
+
+
+
+.header-top {
+	background-color: #F6EE6A
+}
+.custom-logo {
+	width: 10rem;
+}
+.front-page-content-area #hero {
+	padding: 5% 0;
+}
+
+.front-page-content-area #hero h1.entry-title {
+	line-height: 1;
+}
+.widget_meta h2 {
+	display: none;
+}
+.widget_meta ul li {
+	display: inline-block;
+	padding: .5em;
+}
+
+
+/* Tribe events calendar */
+.tribe-events-list .tribe-events-list-event-title,
+.tribe-events-list-separator-month {
+    text-transform: uppercase;
+}
