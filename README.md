@@ -9,12 +9,16 @@
 - Customise via admin > Appearance > Customise.
 
 ## Customisation
-Customise via admin > Appearance > Customise.
+Customise via admin > Appearance > Customise:
 - Site identity
   - Add a logo. (I used one of NASA's [Blue Marble](https://visibleearth.nasa.gov/view_cat.php?categoryID=1484) images.)
   - Uncheck "Display Site Title and Tagline".
 - Homepage settings:
   - Set up your homepage, e.g. a static page with "Featured Image".
+
+Edit code:
+- Style changes can be made via the style.css file.
+  - Colours should be easy to switch here. In future I hope to add admin settings for the colours.
 
 ## More features
 You might also want to add:
